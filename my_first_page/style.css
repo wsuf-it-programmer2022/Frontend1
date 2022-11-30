@@ -1,0 +1,10 @@
+body {
+  background-color: #488ccd;
+  width: 800px;
+  /* inner margin: */
+  padding: 50px;
+  margin: 0 auto;
+  /* inherited: */
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
