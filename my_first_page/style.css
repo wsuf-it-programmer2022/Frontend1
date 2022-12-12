@@ -8,3 +8,73 @@ body {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
+
+.page-title {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.main-menu {
+  background-color: #284c80;
+  width: 800px;
+  padding: 0;
+}
+
+.main-menu-item {
+  display: inline-block;
+}
+
+.main-menu-item a {
+  color: rgb(188, 248, 255);
+  padding: 20px 0;
+  margin-left: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.main-menu-item a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.created-date {
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #284c80;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.image-container {
+  /* it applies to all inline elements */
+  text-align: center;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(237, 245, 255);
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+
+.content-lead {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.content-lead,
+.content {
+  line-height: 1.7;
+}
