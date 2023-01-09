@@ -14,6 +14,7 @@ header,
 main {
   /* vw is always based on the width of the browser and not the parent */
   width: 80vw;
+  /* centering the header and main */
   margin: 0 auto;
 }
 
@@ -173,7 +174,25 @@ main {
   padding-left: 0.8rem;
 }
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin: 0.5rem;
+}
+
+.gallery-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
 /* if the width of the browser is less then 960px */
+/* media query */
+/* rule of thunb: media queries must always be at the end of the css file */
 @media (max-width: 960px) {
   header {
     flex-direction: column;
